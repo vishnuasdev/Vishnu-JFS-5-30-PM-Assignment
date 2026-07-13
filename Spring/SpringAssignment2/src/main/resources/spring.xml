@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+           http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="product" class="org.example.Product">
+    <property name="productId" value="101"/>
+    <property name="productName" value="Keyboard"/>
+    <property name="price" value="1500"/>
+</bean>
+</beans>

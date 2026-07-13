@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+           http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+<bean id="account" class="org.example.Account">
+    <constructor-arg index="0" value="2345023430"/>
+    <constructor-arg name="customerName" value="Vishnu"/>
+    <constructor-arg type="double" value="700023"/>
+</bean>
+</beans>
