@@ -1,0 +1,16 @@
+INSERT INTO products (product_name, category, price, quantity) VALUES
+       ('Wireless Mouse', 'Electronics', 799.00, 25),
+       ('Mechanical Keyboard', 'Electronics', 2499.00, 8),
+       ('USB-C Cable', 'Accessories', 299.00, 50),
+       ('Gaming Monitor 24"', 'Electronics', 12500.00, 5),
+       ('Bluetooth Speaker', 'Electronics', 1899.00, 15),
+       ('Ergonomic Chair', 'Furniture', 8500.00, 4),
+       ('Standing Desk', 'Furniture', 14990.00, 12),
+       ('Notebook A5', 'Stationery', 120.00, 100),
+       ('Gel Pens (Pack of 10)', 'Stationery', 150.00, 6),
+       ('Desk Lamp', 'Home', 999.00, 18),
+       ('External SSD 1TB', 'Electronics', 6499.00, 7),
+       ('Backpack', 'Accessories', 1299.00, 20),
+       ('Water Bottle 1L', 'Home', 450.00, 9),
+       ('Webcam 1080p', 'Electronics', 3200.00, 11),
+       ('Wireless Charger', 'Accessories', 899.00, 3);
